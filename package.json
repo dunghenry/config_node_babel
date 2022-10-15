@@ -1,0 +1,24 @@
+{
+  "name": "config_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "production/index.js",
+  "scripts": {
+    "start": "babel src -w --out-dir build/src",
+    "dev": "nodemon --inspect build/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^5.0.0-alpha.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "nodemon": "^2.0.20"
+  }
+}
